@@ -20,15 +20,15 @@ public class twoDimensionArray {
 		x++;
 	}
 	//create a double for loop here
-	for(int row = 0; row < 20; row++) {
-		for(int col = 0; col < 45; col++) {
+	for(int row = 0; row <= 20; row++) {
+		for(int col = 0; col <= 45; col++) {
 			if(applebacon[row][col] == ' ')
 				applebacon[row][col] = '@';
 			System.out.println(applebacon[row][col]);
 		}
 	}
-	for(int col = 0; col < 45; col++) {
-		for(int row = 0; row < 20; row++) {
+	for(int col = 0; col <= 45; col++) {
+		for(int row = 0; row <= 20; row++) {
 			pie += applebacon[row][col];
 		
 		}
